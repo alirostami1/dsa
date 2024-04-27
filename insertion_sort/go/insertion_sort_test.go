@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	insertionsort "github.com/alirostami1/dsa/go/insertion_sort"
+	insertionsort "github.com/alirostami1/dsa/insertion_sort/go"
 	"github.com/stretchr/testify/assert"
 )
 
