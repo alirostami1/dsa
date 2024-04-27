@@ -1,0 +1,33 @@
+{
+    "name": "dsa",
+    "version": "1.0.0",
+    "description": "data structures and algorithms",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alirostami1/dsa.git"
+    },
+    "keywords": [
+        "dsa",
+        "data-structure",
+        "algorithm"
+    ],
+    "author": "Ali Rostami",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/alirostami1/dsa/issues"
+    },
+    "homepage": "https://github.com/alirostami1/dsa#readme",
+    "devDependencies": {
+        "@babel/core": "^7.24.4",
+        "@babel/preset-env": "^7.24.4",
+        "@babel/preset-typescript": "^7.24.1",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.12.7",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0"
+    }
+}
