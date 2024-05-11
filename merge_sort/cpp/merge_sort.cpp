@@ -45,10 +45,12 @@ void merge(int arr[], int p, int q, int r) {
   while (lp < nl) {
     arr[cp] = left[lp];
     lp++;
+    cp++;
   }
   while (rp < nr) {
     arr[cp] = right[rp];
     rp++;
+    cp++;
   }
 }
 
