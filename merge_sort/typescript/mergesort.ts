@@ -3,7 +3,7 @@ export default function mergeSort(arr: number[], p: number, r: number) {
         return
     }
 
-    const q = p + (r - p) / 2
+    const q = p + Math.trunc((r - p) / 2)
     mergeSort(arr, p, q)
     mergeSort(arr, q + 1, r)
     merge(arr, p, q, r)

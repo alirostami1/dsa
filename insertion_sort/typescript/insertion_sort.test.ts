@@ -1,10 +1,9 @@
 import insertion_sort from './insertion_sort';
 
 test('sorting an array', () => {
-    const arr = [5, 2, 4, 3, 1]
-
+    const arr = Array.from({ length: 40 }, () => Math.floor(Math.random() * 40));
     const correctlySortedArr = [...arr]
-    correctlySortedArr.sort()
+    correctlySortedArr.sort((a, b) => a - b)
 
     insertion_sort(arr, arr.length)
 
